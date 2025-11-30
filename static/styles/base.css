@@ -27,7 +27,8 @@ main {
 main > section {
     width: calc(100vw - 40px);
     max-width: 1100px;
-    margin: 20px auto;
+    margin: 10px auto;
+    padding: 2rem 0;
 }
 
 .img-blend-lighten {

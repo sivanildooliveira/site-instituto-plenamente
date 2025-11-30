@@ -8,6 +8,7 @@
     color: currentColor;
 }
 
+/* Cores base e opacidades */
 :root {
     /* Primary gold variations */
     --primary-100: #FFF8D6;
@@ -20,6 +21,24 @@
     --primary-800: #8C6C0A;
     --primary-900: #6B5200;
 
+    /* Primary strong gold variations */
+    --primary-strong-500: #BFA100;
+    --primary-strong-600: #A88C00;
+    --primary-strong-700: #8C7300;
+    --primary-strong-800: #6E5900;
+    --primary-strong-900: #4F3F00;
+
+    /* Primary gold opacities */
+    --primary-500-op10: rgba(226,196,62,0.10);
+    --primary-500-op20: rgba(226,196,62,0.20);
+    --primary-500-op30: rgba(226,196,62,0.30);
+    --primary-500-op40: rgba(226,196,62,0.40);
+    --primary-500-op50: rgba(226,196,62,0.50);
+    --primary-500-op60: rgba(226,196,62,0.60);
+    --primary-500-op70: rgba(226,196,62,0.70);
+    --primary-500-op80: rgba(226,196,62,0.80);
+    --primary-500-op90: rgba(226,196,62,0.90);
+
     /* White variations */
     --white-100: #FFFFFF;
     --white-200: #F7F7F7;
@@ -31,6 +50,17 @@
     --white-800: #979797;
     --white-900: #7F7F7F;
 
+    /* White opacities */
+    --white-500-op10: rgba(255,255,255,0.10);
+    --white-500-op20: rgba(255,255,255,0.20);
+    --white-500-op30: rgba(255,255,255,0.30);
+    --white-500-op40: rgba(255,255,255,0.40);
+    --white-500-op50: rgba(255,255,255,0.50);
+    --white-500-op60: rgba(255,255,255,0.60);
+    --white-500-op70: rgba(255,255,255,0.70);
+    --white-500-op80: rgba(255,255,255,0.80);
+    --white-500-op90: rgba(255,255,255,0.90);
+
     /* Black variations */
     --black-100: #E7E7E7;
     --black-200: #BFBFBF;
@@ -41,4 +71,25 @@
     --black-700: #1F1F1F;
     --black-800: #101010;
     --black-900: #000000;
+    /* Black opacities */
+    --black-900-op10: rgba(0,0,0,0.10);
+    --black-900-op20: rgba(0,0,0,0.20);
+    --black-900-op30: rgba(0,0,0,0.30);
+    --black-900-op40: rgba(0,0,0,0.40);
+    --black-900-op50: rgba(0,0,0,0.50);
+    --black-900-op60: rgba(0,0,0,0.60);
+    --black-900-op70: rgba(0,0,0,0.70);
+    --black-900-op80: rgba(0,0,0,0.80);
+    --black-900-op90: rgba(0,0,0,0.90);
+
+    /* Success (verde) variations */
+    --success-100: #E6F9ED;
+    --success-200: #BFF2D5;
+    --success-300: #8FE9B8;
+    --success-400: #5FDB9B;
+    --success-500: #2FCB7E;
+    --success-600: #22A864;
+    --success-700: #18804A;
+    --success-800: #115C36;
+    --success-900: #0A3921;
 }

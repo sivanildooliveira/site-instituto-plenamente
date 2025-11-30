@@ -1,0 +1,19 @@
+@charset "UTF-8";
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 2rem 20px;
+    background-color: var(--black-600);
+    color: var(--white-700);
+    gap: 2rem;
+    text-align: center;
+}
+
+footer img {
+    width: 120px;
+}

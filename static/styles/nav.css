@@ -107,7 +107,7 @@ nav ul li:hover {
     }
 
     nav.active {
-        background-color: var(--black-500);
+        background-color: var(--black-900);
     }
 
     nav .sep {
