@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    color: currentColor;
+}
+
+:root {
+    /* Primary gold variations */
+    --primary-100: #FFF8D6;
+    --primary-200: #F9EAB0;
+    --primary-300: #F3DD7A;
+    --primary-400: #EDD34E;
+    --primary-500: #E2C43E;
+    --primary-600: #C9A52A;
+    --primary-700: #B08B1A;
+    --primary-800: #8C6C0A;
+    --primary-900: #6B5200;
+
+    /* White variations */
+    --white-100: #FFFFFF;
+    --white-200: #F7F7F7;
+    --white-300: #EFEFEF;
+    --white-400: #E7E7E7;
+    --white-500: #DFDFDF;
+    --white-600: #C7C7C7;
+    --white-700: #AFAFAF;
+    --white-800: #979797;
+    --white-900: #7F7F7F;
+
+    /* Black variations */
+    --black-100: #E7E7E7;
+    --black-200: #BFBFBF;
+    --black-300: #979797;
+    --black-400: #6F6F6F;
+    --black-500: #474747;
+    --black-600: #2F2F2F;
+    --black-700: #1F1F1F;
+    --black-800: #101010;
+    --black-900: #000000;
+}

@@ -1,0 +1,75 @@
+@charset "UTF-8";
+
+section#historia {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    min-height: calc(100vh - 110px);
+    color: var(--white-500);
+}
+
+section#historia img {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0px;
+    height: 80vh;
+    border-radius: 10px;
+}
+
+section#historia .conteudo-historia {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 20px;
+    width: 50%;
+    max-width: 600px;
+    font-family: "Poppins", sans-serif;
+}
+
+section#historia .conteudo-historia h2 {
+    font-size: 2rem;
+    font-weight: 400;
+}
+
+section#historia .conteudo-historia b {
+    color: var(--primary-500);
+    font-weight: bolder;
+}
+
+section#historia .conteudo-historia p {
+    opacity: .8;
+    font-size: .9rem;
+    line-height: 1.4rem;
+}
+
+@media (max-width: 760px) {
+    section#historia {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        min-height: auto;
+        padding: 20px 0;
+    }
+
+    section#historia img {
+        position: relative;
+        transform: translateY(0px);
+        height: auto;
+        width: 80%;
+    }
+
+    section#historia .conteudo-historia {
+        width: 90%;
+        max-width: none;
+        align-items: center;
+    }
+
+    section#historia .conteudo-historia h2 {
+        text-align: center;
+        font-size: 1.5rem;
+    }
+}   
