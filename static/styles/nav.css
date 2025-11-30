@@ -102,13 +102,16 @@ nav ul li:hover {
 
 @media (max-width: 760px) {
     nav {
-        justify-content: space-between;
         padding: 0px 10px;
         transition: .3s ease-in-out;
     }
 
     nav.active {
         background-color: var(--black-500);
+    }
+
+    nav .sep {
+        justify-content: space-between;
     }
 
     #btnMenu {
